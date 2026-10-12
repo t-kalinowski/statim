@@ -175,7 +175,7 @@ method_tidy = S7::new_class(
     "method_tidy",
     properties = list(
         default = S7::new_property(default = NULL),
-        variants = S7::new_property(class = S7::class_list, default = list())
+        variants = S7::new_property(class = S7::class_list, default = quote(list()))
     ),
     constructor = function(default = NULL, ...) {
         variants = list(...)

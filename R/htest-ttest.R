@@ -267,7 +267,7 @@ class_ttest_pairwise = S7::new_class(
         ),
         method_name = S7::new_property(
             class = S7::class_character,
-            default = character(0)
+            default = quote(character(0))
             # default = "",
             # validator = function(value) {
             #     if (length(value) != 1L)

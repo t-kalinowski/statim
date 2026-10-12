@@ -12,9 +12,9 @@ multi_lazy = S7::new_class(
         models = S7::class_list,
         labels = S7::new_property(
             class = S7::class_character,
-            default = character(0)
+            default = quote(character(0))
         ),
-        args = S7::new_property(class = S7::class_list, default = list())
+        args = S7::new_property(class = S7::class_list, default = quote(list()))
     )
 )
 
@@ -24,7 +24,7 @@ multi_exec = S7::new_class(
         results = S7::new_property(class = S7::class_list),
         labels = S7::new_property(
             class = S7::class_character,
-            default = character(0)
+            default = quote(character(0))
         ),
         stat_name = S7::new_property(class = S7::class_character, default = "")
     )

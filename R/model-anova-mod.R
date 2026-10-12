@@ -350,7 +350,7 @@ cld_anova = S7::new_class(
     properties = list(
         labels = S7::new_property(
             class = S7::class_character,
-            default = character(0)
+            default = quote(character(0))
         )
     )
 )

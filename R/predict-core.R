@@ -202,7 +202,7 @@ method_predict = S7::new_class(
     "method_predict",
     properties = list(
         default = S7::new_property(default = NULL),
-        variants = S7::new_property(class = S7::class_list, default = quote(list()))
+        variants = S7::new_property(class = S7::class_list, default = list())
     ),
     constructor = function(default = NULL, ...) {
         variants = list(...)

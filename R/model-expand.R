@@ -14,7 +14,7 @@ multi_lazy = S7::new_class(
             class = S7::class_character,
             default = quote(character(0))
         ),
-        args = S7::new_property(class = S7::class_list, default = quote(list()))
+        args = S7::new_property(class = S7::class_list, default = list())
     )
 )
 

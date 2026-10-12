@@ -77,8 +77,8 @@ class_var_inform = S7::new_class(
             }
         ),
         args = S7::new_property(class = S7::class_character, default = "<?>"),
-        other_info = S7::new_property(class = S7::class_list, default = quote(list())),
-        vars = S7::new_property(class = S7::class_list, default = quote(list())),
+        other_info = S7::new_property(class = S7::class_list, default = list()),
+        vars = S7::new_property(class = S7::class_list, default = list()),
         registered = S7::new_property(
             class = S7::class_logical,
             default = FALSE

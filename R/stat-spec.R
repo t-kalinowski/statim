@@ -49,7 +49,7 @@ stat_define = S7::new_class(
         ),
         compatible_params = S7::new_property(
             class = S7::class_list,
-            default = quote(list()),
+            default = list(),
             validator = function(value) {
                 if (length(value) == 0L) {
                     return(NULL)

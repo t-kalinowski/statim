@@ -111,15 +111,15 @@ class_corr_two = S7::new_class(
         }),
         estimate = S7::class_numeric,
         statistic = S7::class_numeric,
-        df = S7::new_property(class = S7::class_numeric, default = quote(numeric(0))),
+        df = S7::new_property(class = S7::class_numeric, default = numeric(0)),
         p_val = S7::class_numeric,
         lower_ci = S7::new_property(
             class = S7::class_numeric,
-            default = quote(numeric(0))
+            default = numeric(0)
         ),
         upper_ci = S7::new_property(
             class = S7::class_numeric,
-            default = quote(numeric(0))
+            default = numeric(0)
         ),
         ci_level = S7::new_property(
             class = S7::class_numeric,

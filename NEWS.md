@@ -1,6 +1,6 @@
 # statim (development version)
 
-* `LINEAR_REG()` now dispatches on formulas with development S7. Package installation and development loading no longer warn about property defaults.
+* `LINEAR_REG()` now dispatches on formulas with development S7.
 
 ## Bug Fixes
 

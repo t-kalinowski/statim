@@ -1,5 +1,7 @@
 # statim (development version)
 
+* `LINEAR_REG()` now dispatches on formulas with development S7.
+
 ## Bug Fixes
 
 -  `state_null()` now resolves external variables referenced in a hypothesis

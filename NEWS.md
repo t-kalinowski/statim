@@ -1,6 +1,6 @@
 # statim (development version)
 
-* `LINEAR_REG()` now dispatches on formulas with development S7.
+* Updates for compatibility with S7 > 0.2.2.
 
 ## Bug Fixes
 
